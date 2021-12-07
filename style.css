@@ -1,0 +1,121 @@
+.hide {
+    display: none !important;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url(assets/fonts/IBMPlexSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Pixeloid-Bold';
+    src: url(assets/fonts/PixeloidSansBold-RpeJo.ttf);
+}
+
+@font-face {
+    font-family: 'Pixeloid-Reg';
+    src: url(assets/fonts/PixeloidSans-nR3g1.ttf);
+}
+
+h1 {
+    font-family: 'Pixeloid-Bold', sans;
+    font-size: 80px;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Pixeloid-Reg', sans;
+}
+/* end font */
+
+/* opening page */
+#welcome-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+/* #welcome-box .hide {
+    display: none;
+} */
+/* end opening page */
+
+/* side menu */
+.sidenav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 215px;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-icons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#online-status:hover{
+    cursor: pointer;
+}
+
+#offline-status:hover{
+    cursor: pointer;
+}
+
+#status-title {
+    color: white;
+}
+
+#open-menu {
+    position: fixed;
+    width: 5%;
+    height: 9%;
+    top: 15px;
+    right: 0;
+}
+
+#open-menu:hover {
+    cursor: pointer;
+}
+
+.main-avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+#close-menu {
+    position: fixed;
+    width: 5%;
+    height: 9%;
+    top: 15px;
+    right: 0;
+}
+
+#close-menu:hover {
+    cursor: pointer;
+}
+
+#show-calendar {
+    margin: 20px;
+}
+/* end side menu */
+
+/* user interface */
+.user-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* end user interface */
